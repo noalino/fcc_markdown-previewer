@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  padding: 0; }
+
+#container {
+  width: 75%;
+  height: 80vh;
+  margin: 20px auto; }
+  #container #input,
+  #container #preview {
+    width: 49%;
+    height: 100%;
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 5px;
+    padding: 15px;
+    box-sizing: border-box; }
+  #container #input {
+    float: left;
+    color: #666;
+    font-size: 14px;
+    line-height: 20px;
+    min-height: 20%;
+    max-height: 100%;
+    -moz-resize: vertical;
+    resize: vertical;
+    overflow: auto; }
+  #container #preview {
+    float: right; }
+
+@media only screen and (max-width: 1000px) {
+  #container #input,
+  #container #preview {
+    width: 100%;
+    height: 100%;
+    display: block;
+    float: none; } }
+
+/*# sourceMappingURL=app.css.map */
